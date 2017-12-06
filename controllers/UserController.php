@@ -1,6 +1,6 @@
 <?php
 
-namespace tusharu\mailtemplates\controllers;
+namespace tusharug\mailtemplates\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -8,9 +8,9 @@ use yii\web\Response;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\data\ActiveDataProvider;
-use tusharu\mailtemplates\MailTemplate;
-use tusharu\mailtemplates\MailTemplateConstants;
-use tusharu\mailtemplates\components\MailTemplateManager;
+use tusharug\mailtemplates\MailTemplate;
+use tusharug\mailtemplates\MailTemplateConstants;
+use tusharug\mailtemplates\components\MailTemplateManager;
 /**
  * Default controller for the `mailtemplates` module
  */
@@ -23,11 +23,6 @@ class UserController extends Controller
      */
     public function actionIndex()
     {
-    	// $temp = new MailTemplateManager();
-    	// $temp->setTemplate('Template-1', array('username'=>'tusharugale', 'app_name' => 'Jupiter PMS', 'company_name' => 'JupiterSoft.co'));
-    	// echo $temp->getSubject()."<br/>";
-    	// echo $temp->getBody()."<br/>";
-    	// exit;
     	$model = new MailTemplate();
     	$dataProvider = new ActiveDataProvider([
             'query' => MailTemplate::find()

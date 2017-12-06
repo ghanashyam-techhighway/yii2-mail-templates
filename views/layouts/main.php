@@ -4,7 +4,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-//$asset = tusharu\mailtemplates\TemplateAsset::register($this);
+//$asset = tusharug\mailtemplates\TemplateAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
 
-namespace tusharu\mailtemplates;
+namespace tusharug\mailtemplates;
 
 /**
  * This is just an example.

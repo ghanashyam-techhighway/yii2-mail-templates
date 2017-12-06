@@ -1,6 +1,6 @@
 <?php
 
-namespace tusharu\mailtemplates;
+namespace tusharug\mailtemplates;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
 class TemplateAsset extends AssetBundle
 {
 
-    public $sourcePath = '@tusharu-assets';
+    public $sourcePath = '@tusharug-assets';
     // public $css = [
     //     'css/site.css',
     // ];

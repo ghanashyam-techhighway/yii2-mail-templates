@@ -1,11 +1,11 @@
 <?php
 
-namespace tusharu\mailtemplates\components;
+namespace tusharug\mailtemplates\components;
 
 use Yii;
 use yii\base\Object;
-use tusharu\mailtemplates\MailTemplate;
-use tusharu\mailtemplates\MailTemplateConstants;
+use tusharug\mailtemplates\MailTemplate;
+use tusharug\mailtemplates\MailTemplateConstants;
 
 
 class MailTemplateManager extends Object

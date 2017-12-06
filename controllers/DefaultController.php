@@ -1,6 +1,6 @@
 <?php
 
-namespace tusharu\mailtemplates\controllers;
+namespace tusharug\mailtemplates\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -8,10 +8,10 @@ use yii\data\ActiveDataProvider;
 use yii\web\Response;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use tusharu\mailtemplates\MailTemplate;
-use tusharu\mailtemplates\MailTemplateConstants;
-use tusharu\mailtemplates\components\MailTemplateManager;
-use tusharu\mailtemplates\TemplateAsset;
+use tusharug\mailtemplates\MailTemplate;
+use tusharug\mailtemplates\MailTemplateConstants;
+use tusharug\mailtemplates\components\MailTemplateManager;
+use tusharug\mailtemplates\TemplateAsset;
 /**
  * Default controller for the `mailtemplates` module
  */

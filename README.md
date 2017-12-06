@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tusharu/yii2-mail-templates "*"
+php composer.phar require --prefer-dist tusharug/yii2-mail-templates "*"
 ```
 
 or add
 
 ```
-"tusharu/yii2-mail-templates": "*"
+"tusharug/yii2-mail-templates": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,7 +29,7 @@ Add mailtemplates to modules in web.php
 
 ```php
 $config['modules']['mailtemplates'] = [
-    'class' => 'tusharu\mailtemplates\Template',
+    'class' => 'tusharug\mailtemplates\Template',
 ];
 ```
 
@@ -37,14 +37,14 @@ $config['modules']['mailtemplates'] = [
 Create tables by running following migration command
 
 ```php
-php yii migrate --migrationPath=@vendor/tusharu/yii2-mail-templates/migrations/
+php yii migrate --migrationPath=@vendor/tusharug/yii2-mail-templates/migrations/
 ```
 
 
 Send Mail using Template
 
 ```php
-use tusharu\mailtemplates\components\MailTemplateManager;
+use tusharug\mailtemplates\components\MailTemplateManager;
 
 $data = array(
 			'key1'=>'Value1',

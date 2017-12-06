@@ -1,9 +1,9 @@
 <?php
 
-namespace tusharu\mailtemplates;
+namespace tusharug\mailtemplates;
 
 
-use tusharu\mailtemplates\TemplateAsset;
+use tusharug\mailtemplates\TemplateAsset;
 use Yii;
 
 /**
@@ -14,14 +14,14 @@ class Template extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'tusharu\mailtemplates\controllers';
+    public $controllerNamespace = 'tusharug\mailtemplates\controllers';
 
     /**
      * @inheritdoc
      */
     public function init()
     {
-        $this->setAliases(['@tusharu-assets' => __DIR__ . '/assets']); 
+        $this->setAliases(['@tusharug-assets' => __DIR__ . '/assets']); 
 
         TemplateAsset::register(Yii::$app->view); 
         
